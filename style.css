@@ -1,0 +1,55 @@
+ /*Style the heading */
+ h2 {
+    text-align: center;
+}
+/*Style the unorder list */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+/*Style the li*/
+li {
+    float: left;
+}
+/*Style the li links*/
+li a, .dropbtn {
+    display: inline-block;
+    text-align: center;
+    padding: 12px 14px;
+    text-decoration: none;
+    color: white;
+}
+/*Add hover to the menu*/
+li a:hover, .dropdownd:hover, .dropdownd-content:hover {
+    background-color: green;
+}
+/*Style the dropdown*/
+li /*.dropdown {
+    display: inline-block;
+}*/
+/*Style the dropdown content*/
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0,2);
+    z-index: 1;
+}
+/*Style the dropdown content links*/
+.dropdown-content a {
+    color: black;
+    padding: 12px 14px;
+    display: block;
+    text-align: left;
+}
+/*Add hover to dropdown-content*/
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+/*style the dropdown & dropdown-content*/
+.dropdown:hover .dropdown-content {
+    display: block;
+}
