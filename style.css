@@ -1,3 +1,7 @@
+ /* Body Style */
+ body{
+     background: rgb(163, 160, 160);
+ }
  /*Style the heading */
  h2 {
     text-align: center;
