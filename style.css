@@ -57,3 +57,8 @@ li /*.dropdown {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+/* h2 style */
+h2 {
+    color: red;
+    font-size: 44px;
+}
