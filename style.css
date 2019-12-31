@@ -59,6 +59,8 @@ li /*.dropdown {
 }
 /* h2 style */
 h2 {
-    color: red;
+    color: black;
     font-size: 44px;
+    margin-bottom: 5px;
+    border-bottom: 3px solid greenyellow;
 }
